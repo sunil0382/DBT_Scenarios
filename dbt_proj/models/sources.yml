@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: landing
+    database: SAMPLE_NEW  # optional, specify if needed
+    schema: CONSUMPTION_CONSUMPTION        # optional, specify if needed
+    tables:
+      - name: customer_s

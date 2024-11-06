@@ -1,0 +1,11 @@
+sources: 
+  name: landing
+  database: sample_new
+  schema: CONSUMPTION
+  tables:
+    - name: cust
+      identifier: customer
+    - name: ordr
+      identifier: orders
+    - name: ordItms
+      identifier: orderitems

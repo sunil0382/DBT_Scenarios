@@ -1,0 +1,12 @@
+models: 
+  - name: customer_stg 
+    description: Customer table empty value check 
+    columns:
+     - name: C_ADDRESS
+       tests:
+          - string_not_empty
+
+     - name: C_NAME
+       description: "{{doc('C_NAME')}}"
+       tests:
+          - string_not_empty
